@@ -1,23 +1,28 @@
-# github-profile-viewer
+# GitHub Profile Viewer
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-> Explore any GitHub user's profile, repos, and language stats
+Explore any GitHub user — visualize their repos, language breakdown, star count, and contribution data.
 
 ## Features
-- 🔍 Search any public GitHub username
-- 📊 Language usage breakdown across repos
-- ⭐ Repo cards with stars, forks & language tags
-- 🔗 Click-through to each repository
-- ⚡ Uses public GitHub API — no auth needed
 
-## Tech Stack
-`React 18` · `TypeScript` · `GitHub API` · `Vite`
+- Search any GitHub username
+- Profile overview: avatar, bio, followers, following, public repos
+- Language distribution pie chart across all repos
+- Top repos by stars with description and topics
+- Repository filter by language or topic
+- Contribution activity summary
 
-## Quick Start
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![GitHub API](https://img.shields.io/badge/GitHub_API-181717?style=flat&logo=github&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
+
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
